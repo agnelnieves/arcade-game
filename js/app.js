@@ -60,6 +60,28 @@ class Hero {
     render() {
         ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     }
+
+    /* Moving the hero in the key direction
+    *
+    *  @param {string} input - Direction
+    *
+    */
+    handleInput(input) {
+        switch(input) {
+            case 'left':
+                this.x -= 20;
+                break;
+            case 'up':
+                this.y -= 20;
+                break;
+            case 'right':
+                this.x += 20;
+                break;
+            case 'down':
+                this.y += 20;
+                break;
+        }
+    }
 }
 const player = new Hero();
 

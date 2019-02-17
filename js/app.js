@@ -5,6 +5,8 @@ var Enemy = function() {
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
+    this.x = 0;
+    this.y = 0;
     this.sprite = 'images/enemy-bug.png';
 };
 
@@ -99,5 +101,16 @@ class Hero {
         }
     }
 }
+
+// Creating hero
 const player = new Hero();
 
+
+// Enemies
+
+// Setting enemy position
+
+// Creating enemy
+const bug1 = new Enemy();
+const allEnemies = [];
+allEnemies.push(bug1);

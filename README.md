@@ -4,11 +4,11 @@
 
 </center>
 
-# Memory Game Project
+# Arcade Game Project
 
 My take on Udacity's Arcade game project of the Front End Developer's Nanodegree program.
 
-# resources
+# Resources
 
 + [Udacity's CSS styleguide](https://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 

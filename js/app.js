@@ -75,16 +75,26 @@ class Hero {
     handleInput(input) {
         switch(input) {
             case 'left':
-                this.x -= this.step;
+                if (this.x > 0) {
+                    this.x -= this.step; //Prevents hero going left after blocks have ended
+                }
                 break;
             case 'up':
-                this.y -= this.jump;
+                if (this.y > 0) {
+                    this.y -= this.jump;
+                    //Prevents hero going up after blocks have ended
+                }
                 break;
             case 'right':
-                this.x += this.step;
+                if (this.x < this.step * 4) {
+                    this.x += this.step; //Prevents hero going right after blocks have ended
+                }
                 break;
             case 'down':
-                this.y += this.jump;
+                if (this.y < this.jump * 4) {
+                    this.y += this.jump;
+                    //Prevents hero going down after blocks have ended
+                }
                 break;
         }
     }

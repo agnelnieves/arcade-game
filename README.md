@@ -8,6 +8,20 @@
 
 My take on Udacity's Arcade game project of the Front End Developer's Nanodegree program.
 
+# Installation
+
+Clone or download this repo to your local computer
+
+``` txt
+https://github.com/agnelnieves/arcade-game.git
+```
+
+# Running the game
+
+1. Navigate to the cloned repo's location (Eg: Desktop/arcade-game)
+2. Right click on index.html, select "open with...", or "open in...", and select your prefered web browser
+3. Enjoy!
+
 # Resources
 
 + [Udacity's CSS styleguide](https://udacity.github.io/frontend-nanodegree-styleguide/css.html)

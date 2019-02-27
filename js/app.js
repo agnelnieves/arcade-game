@@ -1,5 +1,5 @@
-// Enemies our player must avoid
-var Enemy = function(x, y, speed) {
+class Enemy {
+    constructor(x, y, speed) {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
 
@@ -12,7 +12,8 @@ var Enemy = function(x, y, speed) {
     this.step = 101;
     this.boundary = this.step * 5;
     this.resetPos = -this.step;
-};
+    }
+}
 
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks

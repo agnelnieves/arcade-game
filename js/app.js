@@ -114,7 +114,8 @@ class Hero {
         }
     }
 
-    update() {
+    // Passing allEnemies
+    update(allEnemies) {
         // Collitions
         for (let enemy of allEnemies) {
 

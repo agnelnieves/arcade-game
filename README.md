@@ -13,7 +13,7 @@ My take on Udacity's Arcade game project of the Front End Developer's Nanodegree
 Clone or download this repo to your local computer
 
 ``` txt
-https://github.com/agnelnieves/arcade-game.git
+git clone https://github.com/agnelnieves/arcade-game.git
 ```
 
 # Running the game
